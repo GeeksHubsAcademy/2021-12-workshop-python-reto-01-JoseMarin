@@ -4,6 +4,9 @@ from entity.superHero import superHero
 if __name__ == '__main__':
     # The client code.
     s1 = superHero()
+    print(s1.power)
+    s1.minPower(14)
+    print(s1.power)
     s2 = superHero()
 
     if id(s1) == id(s2):
