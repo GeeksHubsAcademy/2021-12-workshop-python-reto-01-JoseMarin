@@ -1,6 +1,7 @@
 import unittest
-from entity.superHero import superHero
-from entity.metaHero import metaHero
+import pytest
+from src.entity.superHero import superHero
+from src.entity.metaHero import metaHero
 
 class TestSuperHero(unittest.TestCase):
 
